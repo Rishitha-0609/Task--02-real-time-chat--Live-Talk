@@ -1,0 +1,71 @@
+/* Reset and base styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Chat container */
+#messages {
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  overflow-y: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Each message */
+#messages p {
+  background-color: #e1f5fe;
+  padding: 8px 12px;
+  margin: 6px 0;
+  border-radius: 6px;
+  max-width: 80%;
+}
+
+/* Input area */
+input#message {
+  width: 60%;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #300202;
+  font-size: 16px;
+}
+
+button#sendBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #b50bb5;
+  color: white;
+  cursor: pointer;
+}
+
+button#sendBtn:hover {
+  background-color: #0056b3;
+}
+
+/* Centering the input and button */
+input,
+button {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.input-area {
+  text-align: center;
+  margin-top: 20px;
+}
